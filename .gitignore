@@ -1,0 +1,17 @@
+﻿# Hugo build output
+/public/
+/resources/
+/assets/_gen/
+/.hugo_build.lock
+
+# 忽略自动生成的 CSS，但保留你手动写的 override.css
+/assets/css/*.css
+!/assets/css/override.css
+
+# 操作系统 & 编辑器垃圾文件
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+.idea/
+.vscode/
