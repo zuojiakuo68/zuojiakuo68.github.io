@@ -79,7 +79,7 @@ hugo server -D
    git push
    ```
 
-3. GitHub Actions 会自动运行，约 1 分钟后自动部署到网站
+3. GitHub Actions 会自动运行，约 1 分钟后自动部署到 [MySite](https://zuojiakuo68.github.io/)
 
 ---
 
