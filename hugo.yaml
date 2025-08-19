@@ -27,6 +27,11 @@ menu:
       url: "/categories/自由/"
       weight: 4
 
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
 params:
   defaultTheme: "dark"
   ShowReadingTime: true
@@ -37,3 +42,8 @@ params:
   assets:
     css:
       - "css/override.css"
+  homeInfoParams:
+    Title: "Welcome to Lumileft : )"
+    Content:
+      这里是Lumileft的笔记本 📓<br>
+      记录技术、生活和宇宙的一切
