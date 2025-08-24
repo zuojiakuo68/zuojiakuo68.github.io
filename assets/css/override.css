@@ -1,3 +1,10 @@
 ﻿:root { --background: #2f2f2f; --foreground: #e6e6e6; }
 body.dark { background: var(--background) !important; color: var(--foreground); }
 a { text-decoration: none; }
+
+/* 修改博客中的代码块字体 */
+pre code, code {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
